@@ -1021,3 +1021,1797 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.09.22-07.29.31:085][161]SourceControl: Error: fatal: not a git repository (or any of the parent directories): .git
 [2021.09.22-07.29.31:085][161]SourceControl: Error: Connection Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
 [2021.09.22-07.29.53:029][402]LogSlate: Window 'Source Control Login' being destroyed
+[2021.09.22-07.33.08:303][523]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.09.22-07.33.08:311][523]LogContentBrowser: Creating deferred item: NewFolder
+[2021.09.22-07.33.09:220][631]LogContentBrowser: Attempting asset rename: NewFolder -> Characters
+[2021.09.22-07.33.09:221][631]LogContentBrowser: End creating deferred item NewFolder
+[2021.09.22-07.33.13:332][906]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.09.22-07.33.13:337][906]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.09.22-07.33.13:344][906]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.09.22-07.33.17:272][355]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PlayerController
+[2021.09.22-07.33.17:276][355]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.09.22-07.33.17:697][399]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyTacticalRPG/Core/Characters/BP_PlayerController.BP_PlayerController
+[2021.09.22-07.33.17:824][399]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 127 classes and 0 folders.
+[2021.09.22-07.33.18:345][399]LogStaticMesh: StaticMesh /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox should be resaved to improve async compilation performance.
+[2021.09.22-07.33.31:380][932]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerController1304B664469EF512754F5D85E7478D01.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_PlayerController.uasset'
+[2021.09.22-07.33.31:387][932]AssetCheck: New page: Asset Save: BP_PlayerController
+[2021.09.22-07.33.31:387][932]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_PlayerController.BP_PlayerController
+[2021.09.22-07.33.33:570][194]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.33.33:570][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.33.35:845][461]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.33.35:849][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.33.35:849][461]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:33:35)
+[2021.09.22-07.33.35:850][461]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.09.22-07.33.35:852][461]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.09.22-07.33.35:852][461]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.33.35:854][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001906s)
+[2021.09.22-07.33.35:855][461]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.33.35:855][461]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2021.09.22-07.33.35:855][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003595s)
+[2021.09.22-07.33.35:870][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.09.22-07.33.35:871][461]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.09.22-07.33.35:871][461]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.33.35:871][461]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.33.35:871][461]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.33.35:871][461]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.33.35:871][461]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.33.35:871][461]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.33.35:871][461]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.33.35:871][461]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.33.35:872][461]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.33.35:872][461]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.33.35:874][461]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.33.35:874][461]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.33.35:880][461]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.33.35:880][461]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.33.35:880][461]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.33.35:880][461]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.33.35:880][461]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.33.35:880][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.33.35:881][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.33.35:881][461]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.33.35:881][461]LogInit: FAudioDevice initialized.
+[2021.09.22-07.33.35:881][461]LogAudio: Display: Audio Device (ID: 2) registered with world 'DebugMap'.
+[2021.09.22-07.33.35:892][461]LogLoad: Game class is 'GameModeBase'
+[2021.09.22-07.33.35:892][461]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.33.35
+[2021.09.22-07.33.35:892][461]LogWorld: Bringing up level for play took: 0.000424
+[2021.09.22-07.33.35:892][461]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.09.22-07.33.35:903][461]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.09.22-07.33.35:905][461]PIE: Server logged in
+[2021.09.22-07.33.35:906][461]PIE: Play in editor total start time 0,058 seconds.
+[2021.09.22-07.33.35:972][462]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/GameStateBase_16.svg'. File could not be found
+[2021.09.22-07.33.38:265][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.33.38:265][704]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.33.38:265][704]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.33.38:266][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.33.38:276][704]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.33.38:283][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.33.38:293][704]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.09.22-07.33.38:293][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.33.38:294][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.33.38:295][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.33.38:330][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.09.22-07.33.38:362][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.09.22-07.33.38:384][705]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.09.22-07.33.41:372][ 31]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.09.22-07.33.46:360][598]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.09.22-07.33.49:109][907]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.09.22-07.33.55:812][629]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.33.55:815][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.33.55:815][629]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:33:55)
+[2021.09.22-07.33.55:815][629]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.33.55:817][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001710s)
+[2021.09.22-07.33.55:818][629]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.33.55:818][629]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2021.09.22-07.33.55:818][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003175s)
+[2021.09.22-07.33.55:828][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.09.22-07.33.55:830][629]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.33.55:830][629]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.33.55:830][629]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.33.55:830][629]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.33.55:833][629]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.33.55:833][629]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.33.55:838][629]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.33.55:838][629]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.33.55:838][629]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.33.55:838][629]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.33.55:838][629]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.33.55:838][629]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.33.55:839][629]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.33.55:839][629]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.33.55:839][629]LogInit: FAudioDevice initialized.
+[2021.09.22-07.33.55:839][629]LogAudio: Display: Audio Device (ID: 3) registered with world 'DebugMap'.
+[2021.09.22-07.33.55:849][629]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.33.55:850][629]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.33.55
+[2021.09.22-07.33.55:850][629]LogWorld: Bringing up level for play took: 0.000395
+[2021.09.22-07.33.55:850][629]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.09.22-07.33.55:851][629]PIE: Server logged in
+[2021.09.22-07.33.55:852][629]PIE: Play in editor total start time 0,038 seconds.
+[2021.09.22-07.33.57:486][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.33.57:486][813]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.33.57:486][813]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.33.57:486][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.33.57:498][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.33.57:504][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.33.57:514][813]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.09.22-07.33.57:514][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.33.57:514][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.33.57:516][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.33.57:517][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.09.22-07.33.57:528][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.09.22-07.33.57:560][815]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.09.22-07.33.58:873][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.09.22-07.33.58:928][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/GameModes/BP_GameMode" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/GameModes/BP_GameMode.uasset" SILENT=true
+[2021.09.22-07.33.58:930][970]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_GameMode0E15625A4157F7B7B07836ACDC954AE5.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/GameModes/BP_GameMode.uasset'
+[2021.09.22-07.33.58:938][970]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.09.22-07.33.58:938][970]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/GameModes/BP_GameMode.BP_GameMode
+[2021.09.22-07.34.13:822][458]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.09.22-07.34.13:827][458]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.09.22-07.34.13:835][458]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.09.22-07.34.19:763][122]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Player
+[2021.09.22-07.34.19:766][122]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.09.22-07.34.20:712][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.34.20:714][231]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player67322376480E46C5992AD48AF18D1D72.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.34.20:720][231]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.34.20:720][231]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.34.22:011][378]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.34.35:148][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.09.22-07.34.35:195][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.34.35:198][842]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerF31BF4554F36DB2C9386298ADA5352F4.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.34.35:206][842]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.34.35:206][842]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.34.48:223][380]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.09.22-07.35.07:166][621]LogSlate: Took 0.005288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.09.22-07.35.13:394][303]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.35.13:415][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.09.22-07.35.13:891][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.09.22-07.35.13:946][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.35.13:948][353]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player5B1235784B2DA49CE1621C87229B335E.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.35.13:957][353]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.35.13:957][353]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.35.28:073][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.09.22-07.35.28:130][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.35.28:133][ 30]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player98F5F882433A0EBE50CEDF8C71FDDA7E.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.35.28:141][ 30]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.35.28:141][ 30]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.35.37:911][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.09.22-07.35.37:946][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.35.37:948][178]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player06A1414444E66B24CBBE6285B450E28D.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.35.37:957][178]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.35.37:957][178]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.36.01:863][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.09.22-07.36.01:896][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.36.01:900][982]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player4F0CBC2647B6E00338B53283BD997B1C.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.36.01:909][982]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.36.01:909][982]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.36.12:356][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.09.22-07.36.12:413][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.36.12:416][219]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player8B0CBDCF426804604B68EAB3A89BFCA2.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.36.12:426][219]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.36.12:426][219]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.36.56:685][456]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.36.56:707][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.09.22-07.36.57:407][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.09.22-07.36.57:463][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.36.57:467][534]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player3DE2A51841C308C2307B7B9BA8500271.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.36.57:476][534]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.36.57:476][534]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.37.30:052][332]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.37.30:075][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.09.22-07.37.30:699][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.09.22-07.37.30:730][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.37.30:735][402]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player3586800848549525A875FFB6C0541AE6.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.37.30:744][402]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.37.30:744][402]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.37.32:944][662]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.37.32:947][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.37.32:947][662]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:37:32)
+[2021.09.22-07.37.32:947][662]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.37.32:950][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003082s)
+[2021.09.22-07.37.32:952][662]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.37.32:952][662]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2021.09.22-07.37.32:952][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.004585s)
+[2021.09.22-07.37.32:965][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.37.32:966][662]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.37.32:966][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.37.32:966][662]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.37.32:966][662]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.37.32:968][662]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.37.32:968][662]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.37.32:974][662]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.37.32:974][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.37.32:974][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.37.32:974][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.37.32:975][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.37.32:975][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.37.32:975][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.37.32:975][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.37.32:975][662]LogInit: FAudioDevice initialized.
+[2021.09.22-07.37.32:975][662]LogAudio: Display: Audio Device (ID: 4) registered with world 'DebugMap'.
+[2021.09.22-07.37.33:029][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.37.33:030][662]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.37.33:030][662]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.37.33
+[2021.09.22-07.37.33:030][662]LogWorld: Bringing up level for play took: 0.000426
+[2021.09.22-07.37.33:030][662]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.09.22-07.37.33:033][662]PIE: Server logged in
+[2021.09.22-07.37.33:033][662]PIE: Play in editor total start time 0,087 seconds.
+[2021.09.22-07.37.34:555][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.37.34:555][795]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.37.34:555][795]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.37.34:558][795]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.37.34:558][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.37.34:563][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.37.34:570][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.37.34:582][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.37.34:583][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.37.34:586][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.09.22-07.37.34:599][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.09.22-07.37.34:623][798]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.09.22-07.37.38:403][205]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.09.22-07.37.47:593][258]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.09.22-07.37.49:940][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.09.22-07.37.49:997][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/GameModes/BP_GameMode" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/GameModes/BP_GameMode.uasset" SILENT=true
+[2021.09.22-07.37.49:999][527]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_GameMode8559B4D3452DEDCFECD6DB861126025B.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/GameModes/BP_GameMode.uasset'
+[2021.09.22-07.37.50:008][527]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.09.22-07.37.50:008][527]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/GameModes/BP_GameMode.BP_GameMode
+[2021.09.22-07.37.53:236][888]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.37.53:239][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.37.53:239][888]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:37:53)
+[2021.09.22-07.37.53:239][888]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.37.53:241][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001586s)
+[2021.09.22-07.37.53:242][888]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.37.53:242][888]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2021.09.22-07.37.53:242][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002761s)
+[2021.09.22-07.37.53:255][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.37.53:257][888]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.37.53:257][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.37.53:257][888]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.37.53:257][888]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.37.53:260][888]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.37.53:260][888]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.37.53:265][888]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.37.53:265][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.37.53:265][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.37.53:265][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.37.53:266][888]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.37.53:266][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.37.53:267][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.37.53:267][888]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.37.53:267][888]LogInit: FAudioDevice initialized.
+[2021.09.22-07.37.53:267][888]LogAudio: Display: Audio Device (ID: 5) registered with world 'DebugMap'.
+[2021.09.22-07.37.53:275][888]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.37.53:275][888]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.37.53
+[2021.09.22-07.37.53:275][888]LogWorld: Bringing up level for play took: 0.000387
+[2021.09.22-07.37.53:276][888]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.09.22-07.37.53:277][888]PIE: Server logged in
+[2021.09.22-07.37.53:277][888]PIE: Play in editor total start time 0,039 seconds.
+[2021.09.22-07.37.55:425][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.37.55:425][134]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.37.55:425][134]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.37.55:425][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.37.55:431][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.37.55:439][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.37.55:450][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.37.55:450][134]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.37.55:451][134]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.37.55:454][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.09.22-07.37.55:474][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.09.22-07.37.55:491][135]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.09.22-07.38.18:420][819]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.38.18:455][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.09.22-07.38.19:162][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.09.22-07.38.19:197][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.38.19:202][898]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerDF937E3B4A8AF77CDE9EEBBC60CCE043.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.38.19:212][898]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.38.19:212][898]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.38.21:570][160]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.38.21:573][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.38.21:573][160]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:38:21)
+[2021.09.22-07.38.21:573][160]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.38.21:575][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001907s)
+[2021.09.22-07.38.21:576][160]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.38.21:576][160]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2021.09.22-07.38.21:576][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003135s)
+[2021.09.22-07.38.21:590][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.38.21:590][160]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.09.22-07.38.21:590][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.38.21:590][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.38.21:590][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.38.21:590][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.38.21:590][160]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.38.21:590][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.38.21:590][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.38.21:590][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.38.21:591][160]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.38.21:591][160]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.38.21:593][160]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.38.21:593][160]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.38.21:598][160]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.38.21:599][160]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.38.21:599][160]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.38.21:599][160]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.38.21:599][160]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.38.21:599][160]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.38.21:600][160]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.38.21:600][160]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.38.21:600][160]LogInit: FAudioDevice initialized.
+[2021.09.22-07.38.21:600][160]LogAudio: Display: Audio Device (ID: 6) registered with world 'DebugMap'.
+[2021.09.22-07.38.21:605][160]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.38.21:605][160]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.38.21
+[2021.09.22-07.38.21:605][160]LogWorld: Bringing up level for play took: 0.000404
+[2021.09.22-07.38.21:605][160]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.09.22-07.38.21:607][160]PIE: Server logged in
+[2021.09.22-07.38.21:607][160]PIE: Play in editor total start time 0,035 seconds.
+[2021.09.22-07.38.23:775][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.38.23:775][407]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.38.23:775][407]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.38.23:775][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.38.23:785][407]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.38.23:792][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.38.23:803][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.38.23:803][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.38.23:804][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.38.23:807][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.09.22-07.38.23:820][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.09.22-07.38.23:853][410]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.09.22-07.41.14:395][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.09.22-07.41.14:433][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.41.14:440][289]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player52ED3F1C42AB98E6873C8A8504B27C80.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.41.14:450][289]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.41.14:450][289]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.41.43:633][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.09.22-07.41.43:682][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.41.43:689][744]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player27FB825F4B7275FE4050C2B84D58AA68.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.41.43:699][744]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.41.43:699][744]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.41.44:080][786]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.41.44:102][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.09.22-07.41.44:829][865]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.41.44:832][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.41.44:832][865]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:41:44)
+[2021.09.22-07.41.44:833][865]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.41.44:834][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001868s)
+[2021.09.22-07.41.44:835][865]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.41.44:836][865]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2021.09.22-07.41.44:836][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003138s)
+[2021.09.22-07.41.44:850][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.09.22-07.41.44:851][865]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.09.22-07.41.44:851][865]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.41.44:851][865]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.41.44:851][865]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.41.44:851][865]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.41.44:851][865]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.41.44:851][865]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.41.44:851][865]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.41.44:851][865]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.41.44:852][865]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.41.44:852][865]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.41.44:854][865]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.41.44:854][865]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.41.44:859][865]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.41.44:860][865]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.41.44:860][865]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.41.44:860][865]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.41.44:860][865]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.41.44:860][865]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.41.44:861][865]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.41.44:861][865]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.41.44:861][865]LogInit: FAudioDevice initialized.
+[2021.09.22-07.41.44:861][865]LogAudio: Display: Audio Device (ID: 7) registered with world 'DebugMap'.
+[2021.09.22-07.41.44:916][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.41.44:916][865]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.41.44:917][865]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.41.44
+[2021.09.22-07.41.44:917][865]LogWorld: Bringing up level for play took: 0.000554
+[2021.09.22-07.41.44:917][865]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.09.22-07.41.44:920][865]PIE: Server logged in
+[2021.09.22-07.41.44:921][865]PIE: Play in editor total start time 0,089 seconds.
+[2021.09.22-07.41.49:955][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.41.49:955][428]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.41.49:956][428]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.41.49:958][428]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.41.49:958][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.41.49:965][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.41.49:972][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.41.49:984][428]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.09.22-07.41.49:984][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.41.49:985][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.41.49:988][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.09.22-07.41.50:001][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.41.50:025][431]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.09.22-07.42.01:039][706]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.42.01:060][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.09.22-07.42.01:643][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.09.22-07.42.01:699][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.42.01:706][771]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerF37AD61241718C975EAEB6BD82845086.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.42.01:715][771]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.42.01:715][771]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.42.02:121][820]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.42.02:125][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.42.02:125][820]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:42:02)
+[2021.09.22-07.42.02:125][820]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.42.02:127][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001820s)
+[2021.09.22-07.42.02:128][820]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.42.02:128][820]LogPlayLevel: PIE: World Init took: (0.001207s)
+[2021.09.22-07.42.02:128][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003103s)
+[2021.09.22-07.42.02:141][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.09.22-07.42.02:142][820]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.09.22-07.42.02:142][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.42.02:142][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.42.02:142][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.42.02:142][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.42.02:142][820]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.42.02:142][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.42.02:142][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.42.02:142][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.42.02:143][820]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.42.02:143][820]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.42.02:145][820]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.42.02:145][820]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.42.02:150][820]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.42.02:150][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.42.02:150][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.42.02:150][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.42.02:151][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.42.02:151][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.42.02:151][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.42.02:151][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.42.02:151][820]LogInit: FAudioDevice initialized.
+[2021.09.22-07.42.02:151][820]LogAudio: Display: Audio Device (ID: 8) registered with world 'DebugMap'.
+[2021.09.22-07.42.02:198][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.42.02:198][820]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.42.02:199][820]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.42.02
+[2021.09.22-07.42.02:199][820]LogWorld: Bringing up level for play took: 0.000436
+[2021.09.22-07.42.02:199][820]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.09.22-07.42.02:201][820]PIE: Server logged in
+[2021.09.22-07.42.02:202][820]PIE: Play in editor total start time 0,078 seconds.
+[2021.09.22-07.42.06:455][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.42.06:455][288]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.42.06:455][288]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.42.06:458][288]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.42.06:458][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.42.06:464][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.42.06:471][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.42.06:483][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.42.06:484][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.42.06:487][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.09.22-07.42.06:501][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.09.22-07.42.06:516][290]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.09.22-07.42.29:604][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.42.29:649][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.42.29:656][ 35]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player720EA202480F297B7FEA4EAEF7DBB12A.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.42.29:665][ 35]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.42.29:665][ 35]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.42.40:179][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.09.22-07.42.40:233][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.42.40:241][227]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player442A2A4642614B8E4D3D3C8CF27068C0.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.42.40:249][227]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.42.40:249][227]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.42.40:755][285]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.42.40:777][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.09.22-07.42.41:329][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.09.22-07.42.41:822][403]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.42.41:825][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.42.41:825][403]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:42:41)
+[2021.09.22-07.42.41:825][403]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.42.41:827][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001597s)
+[2021.09.22-07.42.41:828][403]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.42.41:828][403]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2021.09.22-07.42.41:828][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003046s)
+[2021.09.22-07.42.41:841][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.42.41:842][403]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.42.41:842][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.42.41:842][403]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.42.41:842][403]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.42.41:844][403]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.42.41:845][403]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.42.41:850][403]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.42.41:850][403]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.42.41:850][403]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.42.41:850][403]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.42.41:850][403]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.42.41:850][403]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.42.41:851][403]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.42.41:851][403]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.42.41:851][403]LogInit: FAudioDevice initialized.
+[2021.09.22-07.42.41:851][403]LogAudio: Display: Audio Device (ID: 9) registered with world 'DebugMap'.
+[2021.09.22-07.42.41:898][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.42.41:898][403]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.42.41:899][403]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.42.41
+[2021.09.22-07.42.41:899][403]LogWorld: Bringing up level for play took: 0.000461
+[2021.09.22-07.42.41:899][403]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.09.22-07.42.41:902][403]PIE: Server logged in
+[2021.09.22-07.42.41:902][403]PIE: Play in editor total start time 0,078 seconds.
+[2021.09.22-07.42.41:904][403]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.41:993][404]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:019][405]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:199][406]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:208][407]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:218][408]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:227][409]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:235][410]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:243][411]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:251][412]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:260][413]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:268][414]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:276][415]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:285][416]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:293][417]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:301][418]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:310][419]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:318][420]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:326][421]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:335][422]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:343][423]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:351][424]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:360][425]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:368][426]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:376][427]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:385][428]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:393][429]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:401][430]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:410][431]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:418][432]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:426][433]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:435][434]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:443][435]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:451][436]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:460][437]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:468][438]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:476][439]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:485][440]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:493][441]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:501][442]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:510][443]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:518][444]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:526][445]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:535][446]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:543][447]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:551][448]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:560][449]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:568][450]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:576][451]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:585][452]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:593][453]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:601][454]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:610][455]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:618][456]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:626][457]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:635][458]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:643][459]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:651][460]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:660][461]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:668][462]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:676][463]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:685][464]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:693][465]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:701][466]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:710][467]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:718][468]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:726][469]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:735][470]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:743][471]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:751][472]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:760][473]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:768][474]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:776][475]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:785][476]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:793][477]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:801][478]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:810][479]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:818][480]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:826][481]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:835][482]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:843][483]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:851][484]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:860][485]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:868][486]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:876][487]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:885][488]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:893][489]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:901][490]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:910][491]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:918][492]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:926][493]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:935][494]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:943][495]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:951][496]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:960][497]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:968][498]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:976][499]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:985][500]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.42:993][501]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:001][502]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:010][503]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:018][504]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:026][505]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:035][506]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:043][507]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:051][508]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:060][509]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:068][510]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:076][511]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:085][512]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:093][513]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:101][514]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:110][515]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:118][516]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:126][517]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:135][518]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:143][519]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:151][520]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:160][521]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:168][522]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:176][523]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:185][524]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:193][525]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:201][526]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:210][527]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:218][528]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:226][529]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:235][530]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:243][531]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:251][532]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:260][533]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:268][534]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:276][535]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:285][536]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:293][537]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:301][538]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:310][539]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:318][540]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:326][541]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:335][542]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:343][543]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:351][544]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:360][545]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:368][546]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:376][547]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:385][548]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:393][549]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:401][550]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:410][551]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:418][552]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:426][553]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:435][554]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:443][555]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:451][556]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:460][557]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:468][558]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:476][559]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:485][560]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:493][561]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:501][562]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:510][563]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:518][564]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:526][565]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:535][566]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:543][567]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:551][568]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:560][569]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:568][570]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:576][571]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:585][572]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:593][573]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:601][574]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:610][575]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:618][576]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:626][577]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:635][578]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:643][579]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:651][580]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:660][581]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:668][582]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:676][583]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:685][584]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:693][585]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:701][586]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:710][587]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:718][588]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:726][589]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:735][590]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:743][591]LogBlueprintUserMessages: [BP_Player_C_0] 320.0
+[2021.09.22-07.42.43:751][592]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:760][593]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:768][594]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:776][595]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:785][596]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:793][597]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:801][598]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:810][599]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:818][600]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:826][601]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:835][602]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:843][603]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:851][604]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:860][605]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:868][606]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:876][607]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:885][608]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:893][609]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:901][610]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:910][611]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:918][612]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:926][613]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:935][614]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:943][615]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:951][616]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:960][617]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:968][618]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:976][619]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:985][620]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.43:993][621]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:001][622]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:010][623]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:018][624]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:026][625]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:035][626]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:043][627]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:051][628]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:060][629]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:068][630]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:076][631]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:085][632]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:093][633]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:101][634]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:110][635]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:118][636]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:126][637]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:135][638]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:143][639]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:151][640]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:160][641]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:168][642]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:176][643]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:185][644]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:193][645]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:201][646]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:210][647]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:218][648]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:226][649]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:235][650]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:243][651]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:251][652]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:260][653]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:268][654]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:276][655]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:285][656]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:293][657]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:301][658]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:310][659]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:318][660]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:326][661]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:335][662]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:343][663]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:351][664]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:360][665]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:368][666]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:376][667]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:385][668]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:393][669]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:401][670]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:410][671]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:418][672]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:426][673]LogBlueprintUserMessages: [BP_Player_C_0] 280.0
+[2021.09.22-07.42.44:435][674]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:443][675]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:451][676]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:460][677]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:468][678]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:476][679]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:485][680]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:493][681]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:501][682]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:510][683]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:518][684]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:526][685]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:535][686]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:543][687]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:551][688]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:560][689]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:568][690]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:576][691]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:585][692]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:593][693]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:601][694]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:610][695]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:618][696]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:626][697]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:635][698]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:643][699]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:651][700]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:660][701]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:668][702]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:676][703]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:685][704]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:693][705]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:701][706]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:710][707]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:718][708]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:726][709]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:735][710]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:743][711]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:751][712]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:760][713]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:768][714]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:776][715]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:785][716]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:793][717]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:801][718]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:810][719]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:818][720]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:826][721]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:835][722]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:843][723]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:851][724]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:860][725]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:868][726]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:876][727]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:885][728]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:893][729]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:901][730]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:910][731]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:918][732]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:926][733]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:935][734]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:943][735]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:951][736]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:960][737]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:968][738]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:976][739]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:985][740]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.44:993][741]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.45:001][742]LogBlueprintUserMessages: [BP_Player_C_0] 300.0
+[2021.09.22-07.42.45:025][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.42.45:025][742]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.42.45:025][742]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.42.45:028][742]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.42.45:028][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.42.45:037][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.42.45:044][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.42.45:056][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.42.45:057][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.42.45:060][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.42.45:073][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.42.45:106][746]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.09.22-07.42.50:625][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.09.22-07.42.50:666][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.42.50:673][382]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player3542138D4D747490054D8183F98C6DDF.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.42.50:682][382]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.42.50:682][382]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.42.51:124][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.09.22-07.43.28:265][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.09.22-07.43.28:300][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.43.28:308][733]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player8D65278F4237DBBDDBC232B1608478C9.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.43.28:317][733]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.43.28:317][733]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.43.29:072][822]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.43.29:094][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.09.22-07.43.29:462][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.09.22-07.43.29:963][916]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.43.29:966][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.43.29:966][916]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:43:29)
+[2021.09.22-07.43.29:966][916]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.43.29:968][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001757s)
+[2021.09.22-07.43.29:969][916]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.43.29:970][916]LogPlayLevel: PIE: World Init took: (0.001456s)
+[2021.09.22-07.43.29:970][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003303s)
+[2021.09.22-07.43.29:983][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.43.29:984][916]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.43.29:984][916]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.43.29:984][916]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.43.29:984][916]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.43.29:986][916]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.43.29:986][916]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.43.29:992][916]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.43.29:992][916]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.43.29:992][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.43.29:992][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.43.29:993][916]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.43.29:993][916]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.43.29:993][916]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.43.29:993][916]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.43.29:993][916]LogInit: FAudioDevice initialized.
+[2021.09.22-07.43.29:993][916]LogAudio: Display: Audio Device (ID: 10) registered with world 'DebugMap'.
+[2021.09.22-07.43.30:016][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.43.30:016][916]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.43.30:016][916]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.43.30
+[2021.09.22-07.43.30:017][916]LogWorld: Bringing up level for play took: 0.000482
+[2021.09.22-07.43.30:017][916]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.09.22-07.43.30:019][916]PIE: Server logged in
+[2021.09.22-07.43.30:020][916]PIE: Play in editor total start time 0,054 seconds.
+[2021.09.22-07.43.34:446][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.43.34:446][427]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.43.34:446][427]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.43.34:449][427]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.43.34:449][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.43.34:458][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.43.34:465][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.43.34:477][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.43.34:478][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.43.34:481][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.09.22-07.43.34:493][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.09.22-07.43.34:509][429]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.09.22-07.44.08:740][465]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.44.08:763][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.09.22-07.44.09:727][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.09.22-07.44.09:767][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.44.09:775][576]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player881F03C3426E4D52F2C53FA7EBB8C40C.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.44.09:784][576]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.44.09:784][576]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.44.37:713][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.09.22-07.44.37:771][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.44.37:779][833]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerA64178504EAE6F91749176AF7FE15E2E.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.44.37:789][833]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.44.37:789][833]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.44.38:384][898]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.44.38:407][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.09.22-07.44.38:964][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.09.22-07.44.39:348][  6]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.44.39:351][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.44.39:351][  6]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:44:39)
+[2021.09.22-07.44.39:351][  6]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.44.39:353][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001853s)
+[2021.09.22-07.44.39:354][  6]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.44.39:354][  6]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2021.09.22-07.44.39:354][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003204s)
+[2021.09.22-07.44.39:367][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.44.39:368][  6]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.44.39:368][  6]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.44.39:368][  6]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.44.39:368][  6]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.44.39:370][  6]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.44.39:370][  6]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.44.39:376][  6]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.44.39:376][  6]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.44.39:376][  6]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.44.39:376][  6]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.44.39:377][  6]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.44.39:377][  6]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.44.39:377][  6]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.44.39:377][  6]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.44.39:377][  6]LogInit: FAudioDevice initialized.
+[2021.09.22-07.44.39:377][  6]LogAudio: Display: Audio Device (ID: 11) registered with world 'DebugMap'.
+[2021.09.22-07.44.39:416][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.44.39:416][  6]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.44.39:417][  6]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.44.39
+[2021.09.22-07.44.39:417][  6]LogWorld: Bringing up level for play took: 0.000578
+[2021.09.22-07.44.39:417][  6]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.09.22-07.44.39:420][  6]PIE: Server logged in
+[2021.09.22-07.44.39:420][  6]PIE: Play in editor total start time 0,07 seconds.
+[2021.09.22-07.44.43:535][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.44.43:535][437]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.44.43:535][437]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.44.43:538][437]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.44.43:538][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.44.43:542][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.44.43:549][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.44.43:561][437]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.44.43:561][437]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.44.43:564][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.09.22-07.44.43:578][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.09.22-07.44.43:603][440]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.09.22-07.44.48:211][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.09.22-07.44.48:268][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.44.48:276][976]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerA7E5B0964DAE32BCAB7B90AAF63D76AE.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.44.48:285][976]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.44.48:285][976]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.44.49:106][ 67]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.44.49:129][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.09.22-07.44.49:840][137]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.44.49:843][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.44.49:843][137]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:44:49)
+[2021.09.22-07.44.49:843][137]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.44.49:845][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001832s)
+[2021.09.22-07.44.49:846][137]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.44.49:846][137]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2021.09.22-07.44.49:846][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002638s)
+[2021.09.22-07.44.49:861][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.09.22-07.44.49:862][137]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.44.49:862][137]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.44.49:862][137]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.44.49:862][137]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.44.49:865][137]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.44.49:865][137]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.44.49:870][137]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.44.49:870][137]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.44.49:870][137]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.44.49:870][137]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.44.49:871][137]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.44.49:871][137]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.44.49:871][137]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.44.49:871][137]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.44.49:871][137]LogInit: FAudioDevice initialized.
+[2021.09.22-07.44.49:871][137]LogAudio: Display: Audio Device (ID: 12) registered with world 'DebugMap'.
+[2021.09.22-07.44.49:900][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.44.49:900][137]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.44.49:900][137]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.44.49
+[2021.09.22-07.44.49:900][137]LogWorld: Bringing up level for play took: 0.000597
+[2021.09.22-07.44.49:901][137]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.09.22-07.44.49:903][137]PIE: Server logged in
+[2021.09.22-07.44.49:904][137]PIE: Play in editor total start time 0,061 seconds.
+[2021.09.22-07.44.56:035][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.44.56:035][822]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.44.56:035][822]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.44.56:038][822]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.44.56:038][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.44.56:046][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.44.56:053][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.44.56:065][822]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.09.22-07.44.56:065][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.44.56:066][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.44.56:069][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.09.22-07.44.56:083][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.09.22-07.44.56:110][825]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.09.22-07.44.59:645][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.44.59:700][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.44.59:709][236]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerFE14B8F1469062EEA74A8482346FEB05.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.44.59:718][236]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.44.59:718][236]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.45.00:841][362]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.45.00:864][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.09.22-07.45.01:478][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.09.22-07.45.01:858][473]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.45.01:861][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.45.01:861][473]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:45:01)
+[2021.09.22-07.45.01:861][473]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.45.01:863][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001862s)
+[2021.09.22-07.45.01:864][473]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.45.01:864][473]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2021.09.22-07.45.01:864][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003251s)
+[2021.09.22-07.45.01:877][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.45.01:878][473]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.45.01:878][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.45.01:878][473]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.45.01:878][473]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.45.01:881][473]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.45.01:881][473]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.45.01:886][473]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.45.01:886][473]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.45.01:886][473]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.45.01:886][473]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.45.01:887][473]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.45.01:887][473]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.45.01:887][473]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.45.01:887][473]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.45.01:887][473]LogInit: FAudioDevice initialized.
+[2021.09.22-07.45.01:887][473]LogAudio: Display: Audio Device (ID: 13) registered with world 'DebugMap'.
+[2021.09.22-07.45.01:933][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.45.01:933][473]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.45.01:934][473]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.45.01
+[2021.09.22-07.45.01:934][473]LogWorld: Bringing up level for play took: 0.000519
+[2021.09.22-07.45.01:934][473]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.09.22-07.45.01:937][473]PIE: Server logged in
+[2021.09.22-07.45.01:938][473]PIE: Play in editor total start time 0,078 seconds.
+[2021.09.22-07.45.08:585][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.45.08:585][220]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.45.08:585][220]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.45.08:588][220]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.45.08:588][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.45.08:593][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.45.08:600][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.45.08:612][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.45.08:613][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.45.08:617][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.09.22-07.45.08:629][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.09.22-07.45.08:663][224]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.09.22-07.45.18:354][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.09.22-07.45.18:403][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.45.18:412][365]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerB1D8AECD4945C24CB353A0BAFEDFC4FC.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.45.18:421][365]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.45.18:421][365]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.45.19:674][512]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.45.19:697][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.09.22-07.45.20:523][608]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.45.20:526][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.45.20:526][608]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:45:20)
+[2021.09.22-07.45.20:526][608]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.45.20:529][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002392s)
+[2021.09.22-07.45.20:530][608]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.45.20:530][608]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2021.09.22-07.45.20:530][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003856s)
+[2021.09.22-07.45.20:544][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.09.22-07.45.20:546][608]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.45.20:546][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.45.20:546][608]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.45.20:546][608]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.45.20:548][608]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.45.20:548][608]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.45.20:553][608]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.45.20:554][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.45.20:554][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.45.20:554][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.45.20:554][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.45.20:554][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.45.20:555][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.45.20:555][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.45.20:555][608]LogInit: FAudioDevice initialized.
+[2021.09.22-07.45.20:555][608]LogAudio: Display: Audio Device (ID: 14) registered with world 'DebugMap'.
+[2021.09.22-07.45.20:600][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.45.20:600][608]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.45.20:601][608]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.45.20
+[2021.09.22-07.45.20:601][608]LogWorld: Bringing up level for play took: 0.000542
+[2021.09.22-07.45.20:601][608]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.09.22-07.45.20:604][608]PIE: Server logged in
+[2021.09.22-07.45.20:604][608]PIE: Play in editor total start time 0,079 seconds.
+[2021.09.22-07.45.26:665][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.45.26:665][289]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.45.26:665][289]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.45.26:668][289]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.45.26:668][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.45.26:676][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.45.26:683][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.45.26:695][289]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.09.22-07.45.26:695][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.45.26:696][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.45.26:699][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.09.22-07.45.26:712][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.09.22-07.45.26:720][290]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.09.22-07.45.39:437][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.09.22-07.45.39:468][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.45.39:477][797]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player38BABB4C42655ACAF34F4E9BE3998123.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.45.39:486][797]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.45.39:486][797]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.45.47:624][761]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.45.47:627][761]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.09.22-07.45.47:628][761]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2021.09.22-07.45.47:655][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.09.22-07.45.47:657][761]LogPlayLevel: PlayLevel: Blueprint regeneration took 29 ms (1 blueprints)
+[2021.09.22-07.45.47:657][761]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:45:47)
+[2021.09.22-07.45.47:657][761]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.45.47:659][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001865s)
+[2021.09.22-07.45.47:659][761]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.45.47:660][761]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2021.09.22-07.45.47:660][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002921s)
+[2021.09.22-07.45.47:672][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.09.22-07.45.47:673][761]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.45.47:673][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.45.47:673][761]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.45.47:673][761]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.45.47:675][761]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.45.47:675][761]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.45.47:681][761]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.45.47:681][761]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.45.47:681][761]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.45.47:681][761]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.45.47:681][761]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.45.47:681][761]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.45.47:682][761]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.45.47:682][761]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.45.47:682][761]LogInit: FAudioDevice initialized.
+[2021.09.22-07.45.47:682][761]LogAudio: Display: Audio Device (ID: 15) registered with world 'DebugMap'.
+[2021.09.22-07.45.47:733][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.45.47:733][761]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.45.47:733][761]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.45.47
+[2021.09.22-07.45.47:734][761]LogWorld: Bringing up level for play took: 0.000464
+[2021.09.22-07.45.47:734][761]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.09.22-07.45.47:736][761]PIE: Server logged in
+[2021.09.22-07.45.47:737][761]PIE: Play in editor total start time 0,11 seconds.
+[2021.09.22-07.46.00:305][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.46.00:305][218]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.46.00:305][218]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.46.00:308][218]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.46.00:308][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.46.00:313][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.46.00:320][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.46.00:332][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.46.00:333][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.46.00:336][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.46.00:349][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.09.22-07.46.00:382][222]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.09.22-07.46.37:306][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.09.22-07.46.37:335][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.46.37:344][614]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player2FE976D84423E23A6FE0DBAAAB68024E.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.46.37:354][614]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.46.37:354][614]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.46.38:574][760]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.46.38:577][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.46.38:577][760]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:46:38)
+[2021.09.22-07.46.38:577][760]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.46.38:579][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001713s)
+[2021.09.22-07.46.38:580][760]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.46.38:580][760]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2021.09.22-07.46.38:580][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003071s)
+[2021.09.22-07.46.38:593][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.46.38:594][760]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.46.38:594][760]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.46.38:594][760]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.46.38:594][760]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.46.38:596][760]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.46.38:597][760]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.46.38:602][760]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.46.38:602][760]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.46.38:602][760]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.46.38:602][760]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.46.38:602][760]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.46.38:602][760]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.46.38:603][760]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.46.38:603][760]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.46.38:603][760]LogInit: FAudioDevice initialized.
+[2021.09.22-07.46.38:603][760]LogAudio: Display: Audio Device (ID: 16) registered with world 'DebugMap'.
+[2021.09.22-07.46.38:651][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.46.38:651][760]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.46.38:651][760]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.46.38
+[2021.09.22-07.46.38:651][760]LogWorld: Bringing up level for play took: 0.000576
+[2021.09.22-07.46.38:652][760]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.09.22-07.46.38:654][760]PIE: Server logged in
+[2021.09.22-07.46.38:655][760]PIE: Play in editor total start time 0,079 seconds.
+[2021.09.22-07.46.40:885][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.46.40:885][981]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.46.40:885][981]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.46.40:888][981]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.46.40:888][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.46.40:892][981]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.46.40:899][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.46.40:911][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.46.40:912][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.46.40:915][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.09.22-07.46.40:928][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.09.22-07.46.40:953][984]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.09.22-07.46.52:138][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.46.52:185][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.46.52:194][315]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player2DE9C3B249B9612A39991CB9176F4E99.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.46.52:203][315]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.46.52:203][315]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.46.52:958][403]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.46.52:961][403]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.09.22-07.46.52:961][403]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2021.09.22-07.46.52:989][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.09.22-07.46.52:990][403]LogPlayLevel: PlayLevel: Blueprint regeneration took 29 ms (1 blueprints)
+[2021.09.22-07.46.52:990][403]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:46:52)
+[2021.09.22-07.46.52:990][403]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.46.52:992][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001734s)
+[2021.09.22-07.46.52:993][403]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.46.52:993][403]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2021.09.22-07.46.52:993][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002930s)
+[2021.09.22-07.46.53:005][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.46.53:006][403]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.46.53:006][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.46.53:006][403]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.46.53:006][403]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.46.53:008][403]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.46.53:008][403]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.46.53:014][403]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.46.53:014][403]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.46.53:014][403]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.46.53:014][403]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.46.53:014][403]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.46.53:014][403]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.46.53:015][403]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.46.53:015][403]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.46.53:015][403]LogInit: FAudioDevice initialized.
+[2021.09.22-07.46.53:015][403]LogAudio: Display: Audio Device (ID: 17) registered with world 'DebugMap'.
+[2021.09.22-07.46.53:068][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.46.53:068][403]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.46.53:069][403]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.46.53
+[2021.09.22-07.46.53:069][403]LogWorld: Bringing up level for play took: 0.000684
+[2021.09.22-07.46.53:069][403]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.09.22-07.46.53:072][403]PIE: Server logged in
+[2021.09.22-07.46.53:072][403]PIE: Play in editor total start time 0,112 seconds.
+[2021.09.22-07.47.06:205][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.47.06:205][933]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.47.06:206][933]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.47.06:208][933]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.47.06:208][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.47.06:213][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.47.06:220][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.47.06:232][933]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.47.06:233][933]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.47.06:236][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.09.22-07.47.06:250][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.47.06:284][937]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.09.22-07.47.49:816][ 60]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.47.49:839][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.09.22-07.47.50:488][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.09.22-07.47.50:536][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.47.50:545][132]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player7FBD16B74D3E64E91D0697844930D61A.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.47.50:554][132]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.47.50:554][132]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.47.51:142][203]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.47.51:145][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.47.51:145][203]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:47:51)
+[2021.09.22-07.47.51:145][203]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.47.51:147][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001886s)
+[2021.09.22-07.47.51:148][203]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.47.51:148][203]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2021.09.22-07.47.51:148][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003254s)
+[2021.09.22-07.47.51:161][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.09.22-07.47.51:162][203]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.47.51:162][203]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.47.51:162][203]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.47.51:162][203]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.47.51:165][203]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.47.51:165][203]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.47.51:170][203]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.47.51:171][203]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.47.51:171][203]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.47.51:171][203]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.47.51:171][203]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.47.51:171][203]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.47.51:172][203]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.47.51:172][203]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.47.51:172][203]LogInit: FAudioDevice initialized.
+[2021.09.22-07.47.51:172][203]LogAudio: Display: Audio Device (ID: 18) registered with world 'DebugMap'.
+[2021.09.22-07.47.51:201][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.47.51:201][203]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.47.51:202][203]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.47.51
+[2021.09.22-07.47.51:202][203]LogWorld: Bringing up level for play took: 0.000508
+[2021.09.22-07.47.51:202][203]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.09.22-07.47.51:205][203]PIE: Server logged in
+[2021.09.22-07.47.51:206][203]PIE: Play in editor total start time 0,061 seconds.
+[2021.09.22-07.47.55:775][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.47.55:775][688]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.47.55:775][688]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.47.55:778][688]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.47.55:778][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.47.55:786][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.47.55:793][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.47.55:805][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.47.55:806][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.47.55:809][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.09.22-07.47.55:822][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.09.22-07.47.55:838][690]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.09.22-07.48.57:030][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.09.22-07.48.57:086][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.48.57:095][ 33]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerCE6452AA4C32FA02BBBC8F99161CA849.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.48.57:103][ 33]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.48.57:103][ 33]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.48.57:643][ 98]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.48.57:666][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.09.22-07.48.58:434][181]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.48.58:437][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.48.58:437][181]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:48:58)
+[2021.09.22-07.48.58:437][181]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.48.58:439][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001700s)
+[2021.09.22-07.48.58:440][181]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.48.58:440][181]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2021.09.22-07.48.58:440][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002930s)
+[2021.09.22-07.48.58:455][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.09.22-07.48.58:456][181]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.09.22-07.48.58:456][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.48.58:456][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.48.58:456][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.48.58:456][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.48.58:456][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.48.58:456][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.48.58:456][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.48.58:456][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.48.58:457][181]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.48.58:457][181]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.48.58:459][181]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.48.58:459][181]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.48.58:464][181]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.48.58:464][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.48.58:464][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.48.58:464][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.48.58:465][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.48.58:465][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.48.58:466][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.48.58:466][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.48.58:466][181]LogInit: FAudioDevice initialized.
+[2021.09.22-07.48.58:466][181]LogAudio: Display: Audio Device (ID: 19) registered with world 'DebugMap'.
+[2021.09.22-07.48.58:518][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.48.58:518][181]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.48.58:519][181]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.48.58
+[2021.09.22-07.48.58:519][181]LogWorld: Bringing up level for play took: 0.000550
+[2021.09.22-07.48.58:519][181]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.09.22-07.48.58:522][181]PIE: Server logged in
+[2021.09.22-07.48.58:523][181]PIE: Play in editor total start time 0,086 seconds.
+[2021.09.22-07.49.01:115][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.49.01:115][453]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.49.01:116][453]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.49.01:118][453]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.49.01:118][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.49.01:126][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.49.01:132][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.49.01:144][453]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.09.22-07.49.01:144][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.49.01:145][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.49.01:148][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.09.22-07.49.01:161][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.49.01:178][455]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.09.22-07.49.32:555][595]LogEditorTransaction: Undo Create Pin Link
+[2021.09.22-07.49.58:537][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.09.22-07.49.58:539][562]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyTacticalRPG/Maps/DebugMap' took 0.016
+[2021.09.22-07.49.58:541][562]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyTacticalRPG/Core/Characters/BP_Player] ([1] browsable assets)...
+[2021.09.22-07.49.58:541][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyTacticalRPG/Core/Characters/BP_Player]
+[2021.09.22-07.49.58:550][562]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player_Auto17135F9814597F455E554F7AAAEE9AEFE.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Saved/Autosaves/Game/MyTacticalRPG/Core/Characters/BP_Player_Auto1.uasset'
+[2021.09.22-07.49.58:550][562]LogFileHelpers: Auto-saving content packages took 0.011
+[2021.09.22-07.50.07:416][430]LogSlate: Window 'Delete Variable' being destroyed
+[2021.09.22-07.50.21:348][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.09.22-07.50.21:403][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.50.21:412][ 40]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player08FD4C7A45A7EB894E0005B5D6041791.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.50.21:421][ 40]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.50.21:421][ 40]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.50.38:431][  9]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.50.38:454][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.09.22-07.50.39:031][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.09.22-07.50.39:070][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.50.39:079][ 74]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerF2B2F43244EB204D7AA8F2A5610ACD62.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.50.39:088][ 74]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.50.39:088][ 74]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.50.51:218][458]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.50.51:240][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.09.22-07.50.51:773][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.09.22-07.50.51:820][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.50.51:829][519]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player5EC936BB48A5899EC8D5EE8F87972CAA.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.50.51:837][519]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.50.51:837][519]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.50.52:234][566]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.50.52:237][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.50.52:238][566]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:50:52)
+[2021.09.22-07.50.52:238][566]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.50.52:239][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001621s)
+[2021.09.22-07.50.52:240][566]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.50.52:241][566]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2021.09.22-07.50.52:241][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002955s)
+[2021.09.22-07.50.52:253][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.09.22-07.50.52:254][566]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.09.22-07.50.52:254][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.50.52:254][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.50.52:254][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.50.52:254][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.50.52:254][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.50.52:254][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.50.52:254][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.50.52:254][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.50.52:255][566]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.50.52:255][566]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.50.52:257][566]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.50.52:257][566]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.50.52:262][566]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.50.52:263][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.50.52:263][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.50.52:263][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.50.52:263][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.50.52:263][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.50.52:264][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.50.52:264][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.50.52:264][566]LogInit: FAudioDevice initialized.
+[2021.09.22-07.50.52:264][566]LogAudio: Display: Audio Device (ID: 20) registered with world 'DebugMap'.
+[2021.09.22-07.50.52:303][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.50.52:303][566]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.50.52:304][566]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.50.52
+[2021.09.22-07.50.52:304][566]LogWorld: Bringing up level for play took: 0.000496
+[2021.09.22-07.50.52:304][566]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.09.22-07.50.52:307][566]PIE: Server logged in
+[2021.09.22-07.50.52:307][566]PIE: Play in editor total start time 0,07 seconds.
+[2021.09.22-07.50.56:505][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.50.56:505][ 19]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.50.56:505][ 19]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.50.56:508][ 19]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.50.56:508][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.50.56:515][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.50.56:522][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.50.56:534][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.50.56:534][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.50.56:538][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.09.22-07.50.56:551][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.09.22-07.50.56:566][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.09.22-07.51.42:551][438]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.51.42:575][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.09.22-07.51.43:267][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.09.22-07.51.43:325][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.51.43:334][516]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player93A34D9D47A139CF853D50B7B7CB3496.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.51.43:343][516]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.51.43:343][516]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.51.43:618][549]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.51.43:621][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.51.43:622][549]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:51:43)
+[2021.09.22-07.51.43:622][549]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.51.43:623][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001734s)
+[2021.09.22-07.51.43:624][549]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.51.43:625][549]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2021.09.22-07.51.43:625][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003074s)
+[2021.09.22-07.51.43:638][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.09.22-07.51.43:638][549]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.09.22-07.51.43:638][549]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.51.43:638][549]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.51.43:638][549]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.51.43:638][549]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.51.43:638][549]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.51.43:638][549]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.51.43:638][549]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.51.43:638][549]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.51.43:639][549]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.51.43:639][549]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.51.43:641][549]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.51.43:641][549]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.51.43:646][549]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.51.43:646][549]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.51.43:646][549]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.51.43:646][549]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.51.43:647][549]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.51.43:647][549]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.51.43:647][549]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.51.43:647][549]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.51.43:647][549]LogInit: FAudioDevice initialized.
+[2021.09.22-07.51.43:647][549]LogAudio: Display: Audio Device (ID: 21) registered with world 'DebugMap'.
+[2021.09.22-07.51.43:670][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.51.43:670][549]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.51.43:670][549]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.51.43
+[2021.09.22-07.51.43:670][549]LogWorld: Bringing up level for play took: 0.000436
+[2021.09.22-07.51.43:670][549]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.09.22-07.51.43:673][549]PIE: Server logged in
+[2021.09.22-07.51.43:674][549]PIE: Play in editor total start time 0,053 seconds.
+[2021.09.22-07.51.46:725][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.51.46:725][862]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.51.46:725][862]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.51.46:728][862]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.51.46:729][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.51.46:737][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.51.46:743][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.51.46:755][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.51.46:756][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.51.46:759][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.09.22-07.51.46:772][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.51.46:788][864]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.09.22-07.51.50:424][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.51.50:472][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.51.50:480][295]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_PlayerB1F7775D4335988F5EFBEFBC6FE08B48.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.51.50:490][295]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.51.50:490][295]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.51.51:286][379]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.51.51:307][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.09.22-07.51.51:692][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.09.22-07.51.52:086][460]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.51.52:089][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.51.52:089][460]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:51:52)
+[2021.09.22-07.51.52:089][460]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.51.52:091][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001608s)
+[2021.09.22-07.51.52:092][460]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.51.52:092][460]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2021.09.22-07.51.52:092][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002958s)
+[2021.09.22-07.51.52:105][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.51.52:105][460]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.09.22-07.51.52:105][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.51.52:105][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.51.52:105][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.51.52:105][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.51.52:105][460]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.51.52:105][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.51.52:105][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.51.52:105][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.51.52:106][460]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.51.52:106][460]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.51.52:108][460]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.51.52:108][460]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.51.52:113][460]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.51.52:113][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.51.52:113][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.51.52:113][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.51.52:114][460]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.51.52:114][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.51.52:114][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.51.52:114][460]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.51.52:114][460]LogInit: FAudioDevice initialized.
+[2021.09.22-07.51.52:114][460]LogAudio: Display: Audio Device (ID: 22) registered with world 'DebugMap'.
+[2021.09.22-07.51.52:136][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.51.52:136][460]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.51.52:137][460]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.51.52
+[2021.09.22-07.51.52:137][460]LogWorld: Bringing up level for play took: 0.000431
+[2021.09.22-07.51.52:137][460]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.09.22-07.51.52:140][460]PIE: Server logged in
+[2021.09.22-07.51.52:141][460]PIE: Play in editor total start time 0,052 seconds.
+[2021.09.22-07.51.56:495][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.51.56:495][948]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.51.56:496][948]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.51.56:499][948]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.51.56:499][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.51.56:505][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.51.56:512][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.51.56:524][948]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.51.56:525][948]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.51.56:528][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.09.22-07.51.56:541][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.09.22-07.51.56:575][952]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.09.22-07.52.01:410][516]BlueprintLog: New page: Collapse to Function
+[2021.09.22-07.52.09:599][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.09.22-07.52.09:654][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.52.09:664][488]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player7E96505643CECCD05D5B53AD828C0496.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.52.09:673][488]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.52.09:673][488]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.52.10:185][549]BlueprintLog: New page: Compile BP_Player
+[2021.09.22-07.52.10:208][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.09.22-07.52.10:567][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.09.22-07.52.11:301][667]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.52.11:304][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.09.22-07.52.11:304][667]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:52:11)
+[2021.09.22-07.52.11:304][667]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.52.11:306][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001824s)
+[2021.09.22-07.52.11:307][667]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.52.11:308][667]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2021.09.22-07.52.11:308][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.003166s)
+[2021.09.22-07.52.11:320][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.09.22-07.52.11:321][667]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.52.11:321][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.52.11:321][667]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.52.11:321][667]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.52.11:323][667]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.52.11:323][667]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.52.11:329][667]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.52.11:329][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.52.11:329][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.52.11:329][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.52.11:329][667]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.52.11:329][667]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.52.11:330][667]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.52.11:330][667]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.52.11:330][667]LogInit: FAudioDevice initialized.
+[2021.09.22-07.52.11:330][667]LogAudio: Display: Audio Device (ID: 23) registered with world 'DebugMap'.
+[2021.09.22-07.52.11:370][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.52.11:370][667]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.52.11:371][667]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.52.11
+[2021.09.22-07.52.11:371][667]LogWorld: Bringing up level for play took: 0.000565
+[2021.09.22-07.52.11:371][667]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.09.22-07.52.11:373][667]PIE: Server logged in
+[2021.09.22-07.52.11:374][667]PIE: Play in editor total start time 0,07 seconds.
+[2021.09.22-07.52.20:185][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.52.20:185][688]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.52.20:185][688]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.52.20:188][688]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.52.20:188][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.52.20:194][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.52.20:200][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.52.20:213][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.52.20:213][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.52.20:216][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2021.09.22-07.52.20:230][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.09.22-07.52.20:254][691]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.09.22-07.52.27:473][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.09.22-07.52.27:505][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTacticalRPG/Core/Characters/BP_Player" FILE="../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset" SILENT=true
+[2021.09.22-07.52.27:515][535]LogSavePackage: Moving '../../../../../Development/Unreal/MyTacticalRpg/Saved/BP_Player45412D7D42D90FC8AF30108B8425971D.tmp' to '../../../../../Development/Unreal/MyTacticalRpg/Content/MyTacticalRPG/Core/Characters/BP_Player.uasset'
+[2021.09.22-07.52.27:524][535]AssetCheck: New page: Asset Save: BP_Player
+[2021.09.22-07.52.27:524][535]LogContentValidation: Display: Validating Blueprint /Game/MyTacticalRPG/Core/Characters/BP_Player.BP_Player
+[2021.09.22-07.52.28:452][645]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.09.22-07.52.28:455][645]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.09.22-07.52.28:456][645]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2021.09.22-07.52.28:483][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.09.22-07.52.28:484][645]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2021.09.22-07.52.28:484][645]PIE: New page: PIE session: DebugMap (22 sept. 2021 à 11:52:28)
+[2021.09.22-07.52.28:484][645]LogPlayLevel: Creating play world package: /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.52.28:486][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001578s)
+[2021.09.22-07.52.28:487][645]LogAIModule: Creating AISystem for world DebugMap
+[2021.09.22-07.52.28:487][645]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2021.09.22-07.52.28:487][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyTacticalRPG/Maps/DebugMap.DebugMap to /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap (0.002955s)
+[2021.09.22-07.52.28:499][645]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.09.22-07.52.28:500][645]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.09.22-07.52.28:500][645]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.09.22-07.52.28:500][645]LogAudio: Display: Using built-in audio occlusion.
+[2021.09.22-07.52.28:500][645]LogAudioMixer: Display: Initializing audio mixer.
+[2021.09.22-07.52.28:502][645]LogAudioMixer: Display: 0: FrontLeft
+[2021.09.22-07.52.28:502][645]LogAudioMixer: Display: 1: FrontRight
+[2021.09.22-07.52.28:507][645]LogAudioMixer: Display: Using Audio Device Haut-parleurs (Pebble V3)
+[2021.09.22-07.52.28:508][645]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.09.22-07.52.28:508][645]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.09.22-07.52.28:508][645]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.09.22-07.52.28:508][645]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.09.22-07.52.28:508][645]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.09.22-07.52.28:509][645]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.09.22-07.52.28:509][645]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.09.22-07.52.28:509][645]LogInit: FAudioDevice initialized.
+[2021.09.22-07.52.28:509][645]LogAudio: Display: Audio Device (ID: 24) registered with world 'DebugMap'.
+[2021.09.22-07.52.28:554][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.52.28:554][645]LogLoad: Game class is 'BP_GameMode_C'
+[2021.09.22-07.52.28:554][645]LogWorld: Bringing World /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap.DebugMap up for play (max tick rate 0) at 2021.09.22-09.52.28
+[2021.09.22-07.52.28:554][645]LogWorld: Bringing up level for play took: 0.000581
+[2021.09.22-07.52.28:555][645]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.09.22-07.52.28:557][645]PIE: Server logged in
+[2021.09.22-07.52.28:558][645]PIE: Play in editor total start time 0,103 seconds.
+[2021.09.22-07.52.38:135][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.09.22-07.52.38:135][747]LogWorld: BeginTearingDown for /Game/MyTacticalRPG/Maps/UEDPIE_0_DebugMap
+[2021.09.22-07.52.38:135][747]LogSlate: Window 'MyTacticalRpg Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.09.22-07.52.38:138][747]LogWorld: UWorld::CleanupWorld for DebugMap, bSessionEnded=true, bCleanupResources=true
+[2021.09.22-07.52.38:138][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.52.38:143][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.09.22-07.52.38:150][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.09.22-07.52.38:162][747]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.09.22-07.52.38:162][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.52.38:163][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.09.22-07.52.38:167][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.09.22-07.52.38:180][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.09.22-07.52.38:188][748]LogPlayLevel: Display: Destroying online subsystem :Context_27
